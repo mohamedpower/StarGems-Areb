@@ -14,6 +14,30 @@ client.user.setStatus("dnd")
 
 client.on('message' , message => {
 
+    if (message.content === "+invite") {
+
+        if(!message.channel.guild) return message.reply('الآمر فقط في السيرفرات');
+
+     const embed = new Discord.RichEmbed()
+
+ .setColor("RANDOM")
+
+ .setThumbnail(client.user.avatarURL)     
+
+ .setDescription("Add me" + **
+
+رابط البوت | https://discordapp.com/api/oauth2/authorize?client_id=517799244711854100&permissions=8&scope=bot
+
+ **);
+
+  message.author.sendEmbed(embed);
+
+   }
+
+});
+
+client.on('message' , message => {
+
 if(message.content === '+help') {
 
   var EsTeKnAN = new Discord.RichEmbed()
@@ -49,6 +73,8 @@ message.author.send(`
 +unmute / unmute from member
 
 +bc / send massage to members 
+
++invite / add bot to your server
 
 ─════════════ {✯ By Mido ✯} ════════════─
 
