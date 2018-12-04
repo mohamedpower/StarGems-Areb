@@ -28,7 +28,7 @@ client.on('message' , message => {
 
  **
 
-رابط البوت | https://discordapp.com/api/oauth2/authorize?client_id=517799244711854100&permissions=8&scope=bot
+رابط البوت | https://discordapp.com/api/oauth2/authorize?client_id=519626846950653974&permissions=8&scope=bot
 
  **
 
